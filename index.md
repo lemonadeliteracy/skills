@@ -20,4 +20,28 @@ The original skill directs the agent to save the handoff in a temporary director
 
 [Read the handoff skill](skills/handoff/SKILL.md)
 
+## Setup Matt Pocock's skills
+
+Use this to configure a project for Matt Pocock's engineering skills. It asks about your issue tracker, issue labels, and where project terminology and decision records live. Review its proposed changes before approving them.
+
+Try: **“Run setup-matt-pocock-skills for this project.”**
+
+[Read the setup skill](skills/setup-matt-pocock-skills/SKILL.md)
+
+## To spec
+
+Use this after discussing an idea to turn the conversation into a specification and publish it to the project's configured issue tracker. It requires the setup above, checks testing decisions with you, and uses an extensive user-story list.
+
+Try: **“Use to-spec to turn our discussion into a spec.”**
+
+[Read the to-spec skill](skills/to-spec/SKILL.md)
+
+## Wait, what?
+
+Use this when the agent's last explanation didn't make sense. It asks the agent to explain again with context and simpler technical language.
+
+Try: **“Use wait-what to explain that again.”**
+
+[Read the wait-what skill](skills/wait-what/SKILL.md)
+
 These examples describe what to ask after the skills are available to your agent; simply reading this page doesn't install them. Installation in the course Codespace is still to be tested.
