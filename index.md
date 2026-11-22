@@ -36,6 +36,16 @@ Try: **“Use to-spec to turn our discussion into a spec.”**
 
 [Read the to-spec skill](skills/to-spec/SKILL.md)
 
+## Prototype
+
+Use this to explore a question about how an app might look or how its logic should work. The skill builds a temporary example to help you decide, not a finished app.
+
+Try: **“Use prototype to explore different ways my trivia app could look.”**
+
+The original skill treats the prototype as throwaway work and directs the agent to save it on a separate branch. Review and approve any proposed Git actions.
+
+[Read the prototype skill](skills/prototype/SKILL.md)
+
 ## Wait, what?
 
 Use this when the agent's last explanation didn't make sense. It asks the agent to explain again with context and simpler technical language.
